@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Primeiro programa em js</title>
+</head>
+<body>
+    <div style="display:flex; margin-bottom: 30px">
+        <div class="escrito">
+            <h1>Ola</h1>
+            <h3>Bem vindo a Javascript</h3>
+            <p>Aprendendo a usar <strong>DOM</strong> no JavaScript </p>
+            <!-- <p class="msg">Clique aqui</p> -->
+        </div>
+        <div class="blocos">
+            <div class="area a-1">Interaja...</div>
+            <div class="area a-2">Interaja...</div>
+            <div class="area a-3">Interaja...</div>
+        </div>
+    </div>
+    <div class="border">
+        <div style="display:flex">
+            <div id="soma " class="javascriptText soma">
+                <input type="number" name="txt1" id="txt1">+
+                <input type="number" name="txt2" id="txt2">
+                <input type="button" value="Somar" id="somar">
+                <div class="res">Resultado</div>
+            </div>
+            <div class="nacionalidade javascriptText">
+                <p>Diga de que país você é:</p>
+                <input type="text" name="nativo" id="nativo">
+                <input type="button" value="ok" id="nacBotao">
+                <div class="mora">Onde você mora</div>
+            </div>
+            <div class="multas javascriptText">
+                <h2>Sistema de multas</h2>
+                A velocidade do carro é: <input type="number" name="txtvel" id="txtvel">km\h
+                <input type="button" value="ok" id="multaBotao">
+                <div class="resMulta"></div>
+            </div>
+        </div>
+        <div style="display:flex">
+            <div class="voto javascriptText">
+                <h2>Você vota?</h2>
+                Qual é a sua idade: <input type="number" name="idade" id="idade">
+                <input type="button" value="ok" id="idadeBotao">
+                <div class="resIdade"></div>
+            </div>
+
+            <div class="cumprimento javascriptText">
+                Agora são <input type="number" name="" id="cumprimento"> horas
+                <input type="button" value="ok" id="cumprimentoBotao">
+                <div class="resCumprimento"></div>
+            </div>
+            <div class="hoje javascriptText">
+                <div class="horario"></div>
+                <div class="diaSemana"></div>
+            </div>
+        </div>
+        <div style="display:flex">
+            <div class="passos javascriptText">
+                Quantos passos você daria? <input type="number" name="" id="passos">
+                <input type="button" value="ok" id="passoBotao">
+                <div class="resPassos"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
