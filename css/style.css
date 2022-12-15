@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    color: white;
+}
+
+header{
+    background-color: white;
+    height:50px;
+    line-height: 50px;
+}
+
+.localexato{
+    width:1000px;
+    margin:auto;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    padding-right: 15px
+}
+
+main{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.quad-fundo{
+    background-color: white;
+    width:700px;
+    margin:auto;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    color: black
+}
+
+p{
+    font-size:18px;
+    padding-top: 20px;
+    padding-bottom:20px
+}
+
+.foto img{
+    width:200px;
+    border-radius: 50%;
+    margin-bottom:30px
+}
+
+.img-pessoas img{
+    width:200px;
+    border-radius: 50%;
+}
+
+h4{
+    padding-bottom:30px
+}
+
+.idade{
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+.idade input{
+    margin:10px
+}
+
+.img-pessoas{
+    margin: 0 !important;
+    padding 0 !important
+}
+
+.idade .img-pessoas{
+    text-align: center !important
+}
+
+.idade button{
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    border-radius:5px;
+    width:70px;
+    height:30px;
+    cursor: pointer;
+}
+
+.preResultado{
+    margin:auto;
+    border-radius: 10px 
+}
+
+.restabuada{
+    text-align: center;
+}
+
+select#flista{
+    width:150px
+}

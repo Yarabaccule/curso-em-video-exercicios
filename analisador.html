@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Analisador de numeros</title>
+</head>
+<body>
+    <header>
+        <div class="localexato">
+            <a href="index.html">Horas</a>
+            <a href="idade.html">Idade</a>
+            <a href="contar.html">Contar</a>
+            <a href="tabuada.html">Tabuada</a>
+            <a href="analisador.html">Analisador</a>
+        </div>
+    </header>
+    <main>
+        <div class="localexato">
+                <h1>Analisador</h1>
+                <section class="quad-fundo"> 
+                    <div class="idade">
+                        <section>
+                            <div>
+                                <p>Numeros entre 1 e 100: <input type="number" name="fnum" id="fnum">
+                                <button onclick="recebe()">Adicionar</button></p>
+                                <br><br><select name="flista" id="flista" size="6"></select>
+                                <button onclick="conta()">Finalizar</button></p>
+                            </div>
+                            <div id="res">
+
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            <h5>@yarabaccule</h5>
+        </div>
+    </main>
+    <script src="./js/analisador.js"></script>
+</body>
+</html>
